@@ -1,17 +1,17 @@
 {
-  "name": "tsdown-starter",
+  "name": "create-astack",
   "type": "module",
   "version": "0.0.0",
-  "description": "A starter for creating a TypeScript package.",
-  "author": "Author Name <author.name@mail.com>",
+  "description": "Create a new AStack project",
+  "author": "Adria Blancafort",
   "license": "MIT",
-  "homepage": "https://github.com/author/library#readme",
+  "homepage": "https://github.com/adriablancafort/create-astack#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/library.git"
+    "url": "git+https://github.com/adriablancafort/create-astack.git"
   },
   "bugs": {
-    "url": "https://github.com/author/library/issues"
+    "url": "https://github.com/adriablancafort/create-astack/issues"
   },
   "exports": {
     ".": "./dist/index.mjs",
