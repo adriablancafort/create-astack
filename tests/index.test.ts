@@ -1,6 +1,10 @@
 import { expect, test } from 'vitest'
-import { fn } from '../src'
+import { DEFAULT_FOLDER, REPO_SOURCE } from '@/cli'
 
-test('fn', () => {
-  expect(fn()).toBe('Hello, tsdown!')
+test('REPO_SOURCE points to correct repo', () => {
+  expect(REPO_SOURCE).toBe('adriablancafort/astack')
+})
+
+test('DEFAULT_FOLDER has a value', () => {
+  expect(DEFAULT_FOLDER.length).toBeGreaterThan(0)
 })
