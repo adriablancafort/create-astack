@@ -1,3 +1,7 @@
 # Create AStack
 
-Create a new AStack project
+Scaffold a new [AStack](https://github.com/adriablancafort/astack) project
+
+```bash
+pnpm create astack
+```
