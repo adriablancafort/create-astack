@@ -30,9 +30,8 @@ export async function cli() {
   if (install) {
     log.step('Installing dependencies...')
     execSync('pnpm install --loglevel=error', { cwd: targetDir, stdio: 'inherit' })
+    log.success(`All set. Run \`cd ${projectName}\` to start building.`)
   } else {
-    log.info(`Run \`pnpm install\` in ${projectName} when ready.`)
+    log.success(`All set. Run \`cd ${projectName} && pnpm install\` to start building.`)
   }
-
-  log.success(`All set. Run \`cd ${projectName}\` to start building.`)
 }
