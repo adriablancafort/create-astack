@@ -1,7 +1,8 @@
 {
   "name": "create-astack",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.28.0",
   "description": "Create a new AStack project",
   "author": "Adria Blancafort",
   "license": "MIT",
@@ -28,7 +29,7 @@
     "dev": "tsdown --watch",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "release": "bumpp",
+    "release": "bumpp --push",
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
