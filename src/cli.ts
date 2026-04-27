@@ -34,4 +34,6 @@ export async function cli() {
   } else {
     log.success(`All set. Run \`cd ${projectName} && pnpm install\` to start building.`)
   }
+
+  process.exit(0)
 }
